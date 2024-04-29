@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+ background-image: url('./Assets/background2.png');
+ background-color: #EFE09B;
+}
+
+.container {
+    width: auto;
+    height: 100vh;
+}
+
+.corner1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 25vw;
+}
+
+.corner2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 25vw;
+}
+
+.logo-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 20vw;
+    margin-top: 2.58vh;
+}
+.inner-container{
+        display: flex;
+        justify-content: center;
+        margin-top: 50vh;
+}
+.inner-container > a > img {
+    height: 11.66vh;
+    width: 18.75vw;
+    margin: 0vh 10vh;
+  }
+ .email{
+    width: 15.41vw;
+    height: 7.5vh;
+ }
+ .whatsapp{
+    width: 15.41vw;
+    height: 7.5vh;
+ }

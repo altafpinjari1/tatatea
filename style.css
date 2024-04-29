@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'Sriracha';
+    src: url('path/to/your/font-file.woff2') format('woff2'),
+         url('path/to/your/font-file.woff') format('woff');   
+    font-weight: normal;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+body {
+    font-family: 'Sriracha', cursive; 
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EFE09B;
+}
+
+.container {
+    width: auto;
+    height: 100vh;
+}
+
+.corner1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 25vw;
+}
+
+.corner2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 25vw;
+}
+
+.logo-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 20vw;
+    margin-top: 2.58vh;
+}
+
+.form-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 31.36vw;
+    margin: auto;
+}
+
+
+.form-container {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px; 
+    box-sizing: border-box;
+    top: 3vh;
+   
+}
+
+.input-group {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 50px; 
+}
+
+.input-group label {
+    flex: 0 0 auto; 
+    width: 100px; 
+    margin-right: 10px; 
+    font-weight: 600;
+}
+
+.input-group input {
+    flex: 1; 
+    border: none;
+    height: 4.75vh; 
+    background-color: #E4DCB6;
+    box-sizing: border-box;
+    width: 23.68vw;
+    padding: 5px;
+    box-shadow: inset 2px 2px 2px #1E1E1E; 
+}
+
+@media screen and (max-width: 600px) {
+    .input-group input {
+        width: calc(100% - 110px);
+    }
+}
+
+
+.thanks-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.mom-container {
+    flex: 1;
+    position: relative;
+    margin: 2vw;
+}
+
+.background-image {
+    width: 100%; 
+    display: block;
+}
+
+.foreground-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    max-width: 6vw;
+    height: auto;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+
+}
+button{
+    width: 15.72vw;
+    height: 7.05vh;
+    background-color: #004C1B;
+    color:#D4C580;
+    font-size: 1vw;
+    border: none;
+    border-radius: 2px;
+}
+.thankyou{
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    box-sizing: border-box;
+ 
+}
